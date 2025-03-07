@@ -1,5 +1,5 @@
 // Prompt user for max limit and convert input to an integer
-const limit = parseInt(prompt("MaxLimit of Loop: "), 10);//To accept numbers, parseInt is used since the data type that is accepted by prompt is a string data type.
+let limit = parseInt(prompt("MaxLimit of Loop: "), 10);//To accept numbers, parseInt is used since the data type that is accepted by prompt is a string data type.
 //So the parseInt convert it into a Int data type with a base 10 counting
 
 
